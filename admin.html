@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel - Vāstrāmāya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Admin Panel (Private)</h2>
+  <input type="password" id="adminCode" placeholder="Enter Admin Code" />
+  <button onclick="checkAdmin()">Login</button>
+
+  <div id="adminSection" style="display:none;">
+    <h3>Orders</h3>
+    <ul id="ordersList"></ul>
+    <p>Update delivery status manually here.</p>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
